@@ -1,0 +1,54 @@
+html { font-size: 62.5%; 
+}
+
+main {
+    position: absolute;
+    left: 5vw;
+    right: 5vw;
+
+}
+
+.titulo{   
+    background-color: rgb(255, 0, 0);
+    font-size: 6vw ;
+    border-style: dotted;
+    border-radius: 3rem; 
+
+    padding: 2rem;
+    margin: 4rem auto;
+    text-align:center;
+    height: 15vw;
+    max-width: 30%;
+    min-width: 15%;
+
+    position: absolute;
+    top: 4rem;
+    left: 5rem;
+    right: 5rem;
+    z-index: 1;
+
+    
+}
+    
+.parrafo{
+
+    background-color: lawngreen;
+    font-size: 4.5vw ;
+    border-style: dotted;
+    border-radius: 3rem;
+
+    margin: 4rem auto;
+    padding: 7vh;
+    text-align:center;
+    max-width: 75%;
+    min-width: 5%;  
+    max-height: 80vw;
+    min-width: 50vw;
+
+    position: absolute;
+    top: 7.25rem;
+    left: 5rem;
+    right: 5rem;
+
+}
+

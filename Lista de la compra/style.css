@@ -1,0 +1,46 @@
+/* Etiqueta */
+p {
+    color: darkslategray ;
+    font-size: 40px;
+}
+
+/* class */
+.parrafo {
+
+color:crimson;
+}
+
+/*ID*/
+#texto {
+    color: cyan;
+    font-size: 25px;
+}
+
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+    background-color: rgb(255, 184, 30);
+}
+.main-nav__item {
+    display: inline-block;
+}
+.main-nav__item a {
+    color: rgb(0, 93, 12);
+    font-size: 32px;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover {
+    color:indigo
+}
+
+.main-nav__item a:active {
+    color:rgb(255, 0, 0)
+}
+
+.main-nav__item a::after {
+    content: " / ";
+}
